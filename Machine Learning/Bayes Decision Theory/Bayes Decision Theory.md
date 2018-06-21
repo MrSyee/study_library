@@ -1,3 +1,5 @@
+html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <!-- page_number: true -->
 
 Bayes Decision Theory
@@ -22,7 +24,7 @@ Bayes Decision Theory
 
 - 어떤 문제를 풀기 위해서는 decision making을 해야한다.
 	ex) classification 문제 -> 이 데이터가 어떤 class인가를 decision
-    
+
 - decision을 어떻게 결정할 것인가? 에 대해 다루는 이론
 
 ### Bayes Decision Theory
@@ -117,7 +119,7 @@ $$ L(C_i, C_k )  = \begin{cases} 1 &\text{if } i=k \\ 0<L<1 &\text{if } i=k+1 \\
 - 이러한 방법을 `Bayes estimator(Bayes classifier)`라고 한다.
 $$ \hat C_k = argmin_{k}R(C_k|x) = argmin_k(1-P(C_k|x))$$
 $$ = argmax_kP(C_k|x) $$
-$$ \begin{cases} C_k &\text{if } maxP(C_k|x) \ \& \  P(C_k|x) > 1-L 
+$$ \begin{cases} C_k &\text{if } maxP(C_k|x) \ \& \  P(C_k|x) > 1-L
 \\ Reject &\text{otherwise} \end{cases} $$
 
 ---
