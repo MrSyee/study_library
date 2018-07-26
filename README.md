@@ -4,3 +4,5 @@
 
 - Machine Learning
 - Reinforcement Learning
+- ETC
+  - git 관련
